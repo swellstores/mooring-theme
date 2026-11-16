@@ -1,0 +1,94 @@
+{
+  "title": "Home",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "framed_hero",
+      "props": {
+        "kicker": "Welcome in",
+        "heading": "Discover our latest *products*",
+        "text": "Shop new arrivals and customer favorites.",
+        "cta_label": "Shop now",
+        "cta_href": "/products",
+        "more_label": "Browse categories",
+        "more_link": "/categories",
+        "picture_from": { "from": "top", "limit": 1 },
+        "picture_side": "right",
+        "surface": "plain"
+      }
+    },
+    {
+      "id": "new",
+      "type": "featured_products",
+      "props": {
+        "kicker": "Just in",
+        "heading": "New arrivals",
+        "products": { "from": "all", "sort": "newest", "limit": 4 },
+        "per_row": "4",
+        "more_label": "See everything",
+        "more_link": "/products",
+        "surface": "plain"
+      }
+    },
+    {
+      "id": "shelf",
+      "type": "collection_shelf",
+      "props": {
+        "heading": "Shop by category",
+        "collections": { "from": "top", "limit": 4 },
+        "more_label": "All categories",
+        "more_link": "/categories",
+        "frame": "arch",
+        "surface": "parchment"
+      }
+    },
+    {
+      "id": "note",
+      "type": "story_split",
+      "props": {
+        "opening": "A note from the shop",
+        "heading": "About us",
+        "letter": "Learn more about who we are and what we make.",
+        "sign_off": "From all of us",
+        "picture_side": "left",
+        "initial": "on",
+        "surface": "plain"
+      }
+    },
+    {
+      "id": "favorites",
+      "type": "featured_products",
+      "props": {
+        "kicker": "Tried and loved",
+        "heading": "Customer favorites",
+        "products": { "from": "all", "sort": "best_selling", "limit": 3 },
+        "per_row": "3",
+        "more_label": "",
+        "surface": "parchment"
+      }
+    },
+    {
+      "id": "promises",
+      "type": "promise_band",
+      "props": {
+        "promises": [
+          { "symbol": "check", "headline": "Chosen with care", "detail": "A small range, picked one by one" },
+          { "symbol": "leaf", "headline": "Made to last", "detail": "Goods worth keeping for years" },
+          { "symbol": "clock", "headline": "Here to help", "detail": "Write to us with any question" }
+        ],
+        "band": "deep"
+      }
+    },
+    {
+      "id": "letters",
+      "type": "email_signup",
+      "props": {
+        "heading": "Letters from the shop",
+        "text": "Now and then: new arrivals and a few words from us.",
+        "button_label": "Subscribe",
+        "background_colour": "#ebdfc9",
+        "text_colour": "#2a1d13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Product",
+  "sections": [
+    {
+      "id": "product",
+      "type": "product_page",
+      "props": {
+        "product": "current",
+        "pairs": { "from": "up_sells", "limit": 3 },
+        "story_fold": "full",
+        "show_attributes": "show",
+        "shop_folds": []
+      }
+    },
+    {
+      "id": "related",
+      "type": "featured_products",
+      "props": {
+        "heading": "You may also like",
+        "products": { "from": "related", "limit": 4 },
+        "per_row": "4",
+        "more_label": "",
+        "surface": "parchment"
+      }
+    }
+  ]
+}

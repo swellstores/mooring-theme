@@ -1,0 +1,2897 @@
+{
+  "format": 1,
+  "theme": "theme-classic",
+  "store": {
+    "name": "Quillhart",
+    "tagline": "Good paper, fine ink, and letters worth keeping.",
+    "currency": "USD",
+    "locale": "en-US",
+    "email": "hello@quillhart.example",
+    "phone": "+1 802 555 0143",
+    "address": {
+      "address1": "41 Mercer Street",
+      "city": "Hollin Mill",
+      "state": "VT",
+      "zip": "05458",
+      "country": "US"
+    },
+    "ship_to": [
+      "US",
+      "CA"
+    ],
+    "shipping": {
+      "name": "Standard shipping",
+      "price": 6,
+      "free_over": 60
+    },
+    "voice": "Warm, courteous and a little old-fashioned, like a shopkeeper writing to a regular customer: full sentences, gentle humor, concrete details (paper weights, nib sizes, cloth and leather), and a fondness for letters and the people who write them. No hype, no exclamation marks, no slang. Says 'we' for the shop and 'you' for the reader.",
+    "story": "Quillhart was opened in 1994 by Nell Hart, a bookbinder, in the old post office on Mercer Street in Hollin Mill, Vermont. The brass mail slots still line one wall and hold envelopes and cards. The shop keeps a small range of paper goods, pens and inks it has tested itself, mixes its own house inks, and wraps every order by hand at a long oak table at the back. All names are invented.",
+    "policies": {
+      "refund": "If something isn't right, send it back within 30 days of delivery, unused and in its original wrapping, and we will refund you in full to your original payment method. Opened ink, used notebooks and Card Club months already sent are final sale, unless they arrived damaged, in which case we will replace them at no cost. To start a return, write to hello@quillhart.example with your order number; we will reply within two working days with a return address. Return postage is yours to pay unless we made a mistake.",
+      "shipping": "We pack and ship orders from our shop in Hollin Mill, Vermont, within two working days. Standard shipping is $6, and free on orders over $60, to anywhere in the United States and Canada. Most US orders arrive in three to six working days, and Canadian orders in five to ten; Canadian orders may owe import duties on arrival. Every order is wrapped by hand in cream tissue and cotton ribbon at no charge. Card Club cards ship on the first working day of each month.",
+      "privacy": "We collect only what we need to fill and deliver your order and to answer your letters: your name, email address, shipping address and order history. Payments are handled by our payment provider, and we never see or keep your card number. We send our monthly newsletter only if you ask for it, and every issue has a way to unsubscribe. We never sell or share your details with anyone else. To see, correct or delete what we hold about you, write to hello@quillhart.example.",
+      "terms": "These terms cover purchases from Quillhart, 41 Mercer Street, Hollin Mill, VT 05458. Prices are in US dollars; taxes and shipping are shown at checkout. Many of our goods are made by hand from natural materials, so leather grain, marbling, wood and pressed botanicals vary a little from the photos and from one piece to the next; this is part of their character, not a defect. Card Club subscriptions renew on their schedule until you skip, pause or cancel them from your account. If an item is out of stock after you order, we will write to you and refund it promptly."
+    }
+  },
+  "art_direction": "Real-photo still-life photography for Quillhart, a small, old-fashioned stationery and gift shop. Light: soft window light from the left, morning or late afternoon, gentle warm shadows; never flash or harsh sun. Palette: warm cream and parchment paper tones, deep ink navy, oxblood, moss green, walnut and honey oak, aged brass; muted and warm, never saturated or neon. Surfaces: worn walnut or oak desks, cream linen cloth, cream laid paper; product shots on a seamless warm parchment-colored backdrop. Composition: classic, calm and orderly still life, the subject centered with generous margins so it sits well inside a square or arch-topped picture frame. Lens: 50 to 90 mm, straight on or slightly elevated, shallow depth of field on close details; true texture of paper fibers, book cloth, leather grain, wood and brass. Mood: quiet, homely and timeless, like a well-kept shop on a small-town main street. Paper is always blank, or shows only loose abstract ink swirls and swatches that are not letters. Avoid: any readable text, letters, numbers, handwriting, calligraphy, logos, labels, stamps, brand marks or watermarks; people or faces (hands only when asked); clutter; plastic or CGI look; heavy HDR; oversaturated color.",
+  "attributes": [
+    {
+      "id": "material",
+      "name": "Material",
+      "type": "checkbox",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Paper",
+        "Cloth",
+        "Leather",
+        "Brass",
+        "Steel",
+        "Resin",
+        "Aluminum",
+        "Glass",
+        "Wood",
+        "Cotton"
+      ]
+    },
+    {
+      "id": "size",
+      "name": "Size",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Pocket",
+        "B6",
+        "A5",
+        "Card"
+      ]
+    },
+    {
+      "id": "binding",
+      "name": "Binding",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Thread-sewn",
+        "Lay-flat sewn",
+        "Saddle-stitched",
+        "Refillable"
+      ]
+    },
+    {
+      "id": "paper",
+      "name": "Paper",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "page_count",
+      "name": "Pages",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "occasion",
+      "name": "Occasion",
+      "type": "checkbox",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Everyday",
+        "Birthday",
+        "Thank you",
+        "Sympathy",
+        "Holiday"
+      ]
+    },
+    {
+      "id": "made_in",
+      "name": "Made in",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "USA",
+        "England",
+        "Italy",
+        "Portugal",
+        "Germany",
+        "Japan"
+      ]
+    },
+    {
+      "id": "care",
+      "name": "Care",
+      "type": "textarea",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "notebooks-journals",
+      "name": "Notebooks & Journals",
+      "parent": null,
+      "description": "Clothbound journals, diaries and pocket notebooks on paper we have tested with real ink, page by page.",
+      "image": {
+        "prompt": "Still life on a worn walnut desk by a window: a neat stack of clothbound journals in ink navy, oxblood, moss green and parchment book cloth, the top one open to blank cream pages with a ribbon marker, soft morning light. The main objects sit across the middle band of the frame, so it crops well both to a wide, short banner and to a tall center crop.",
+        "alt": "A stack of clothbound journals in navy, oxblood, moss and parchment",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "journals",
+      "name": "Journals & Diaries",
+      "parent": "notebooks-journals",
+      "description": "Bound journals and diaries for the desk: thread-sewn, lay-flat, and kind to fountain pens.",
+      "image": {
+        "from_product": "everyday-clothbound-journal"
+      }
+    },
+    {
+      "slug": "pocket-notebooks",
+      "name": "Pocket Notebooks & Sketchbooks",
+      "parent": "notebooks-journals",
+      "description": "Slim notebooks and linen sketchbooks for a coat pocket, a bag or a long walk.",
+      "image": {
+        "from_product": "pocket-notebook-trio"
+      }
+    },
+    {
+      "slug": "writing",
+      "name": "Pens & Ink",
+      "parent": null,
+      "description": "Fountain pens for every hand, our own house inks, and cedar pencils that smell like the first day of school.",
+      "image": {
+        "prompt": "Still life on a cream linen cloth: three fountain pens (one brass, one amber tortoise resin, one navy) laid side by side beside a squat glass bottle of blue-black ink and a sheet of blank cream paper with an abstract ink swirl, warm window light. The main objects sit across the middle band of the frame, so it crops well both to a wide, short banner and to a tall center crop.",
+        "alt": "Three fountain pens beside a bottle of blue-black ink on cream linen",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "fountain-pens",
+      "name": "Fountain Pens",
+      "parent": "writing",
+      "description": "From a first pen to a lifelong one, each filled and tried at the counter before it goes on the shelf.",
+      "image": {
+        "from_product": "ledger-brass-fountain-pen"
+      }
+    },
+    {
+      "slug": "inks",
+      "name": "Ink",
+      "parent": "writing",
+      "description": "Our house inks, mixed in small batches in five quiet colors.",
+      "image": {
+        "from_product": "bottled-ink"
+      }
+    },
+    {
+      "slug": "pencils",
+      "name": "Pencils",
+      "parent": "writing",
+      "description": "Incense cedar pencils and the brass sharpener to keep them.",
+      "image": {
+        "from_product": "cedar-pencils"
+      }
+    },
+    {
+      "slug": "cards-letters",
+      "name": "Cards & Letters",
+      "parent": null,
+      "description": "Letterpress cards, cotton writing paper and wax seals, for the notes that deserve more than a text.",
+      "image": {
+        "prompt": "Still life on a walnut desk: cream letterpress cards and kraft envelopes fanned out, an envelope closed with an oxblood wax seal, a brass seal on a walnut handle and a stick of sealing wax, soft afternoon window light, no words anywhere. The main objects sit across the middle band of the frame, so it crops well both to a wide, short banner and to a tall center crop.",
+        "alt": "Cream cards and envelopes with an oxblood wax seal and a brass seal",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "greeting-cards",
+      "name": "Greeting Cards",
+      "parent": "cards-letters",
+      "description": "Letterpress notes, pressed-fern cards and our monthly Card Club.",
+      "image": {
+        "from_product": "letterpress-thank-you-notes"
+      }
+    },
+    {
+      "slug": "letter-sets",
+      "name": "Letter Sets & Wax Seals",
+      "parent": "cards-letters",
+      "description": "Cotton paper, featherweight pads and brass seals for a proper letter.",
+      "image": {
+        "from_product": "cotton-letter-set"
+      }
+    },
+    {
+      "slug": "desk",
+      "name": "Desk Accessories",
+      "parent": null,
+      "description": "Walnut, brass and leather for a writing desk that is a pleasure to sit down at.",
+      "image": {
+        "from_product": "walnut-pen-tray"
+      }
+    },
+    {
+      "slug": "wrapping-gifts",
+      "name": "Wrapping & Gift Sets",
+      "parent": null,
+      "description": "Block-printed paper, cotton ribbon and gift boxes put together at our wrapping table.",
+      "image": {
+        "prompt": "Still life on a worn oak counter: three gifts wrapped in kraft and hand block-printed papers (fern on cream, stars on navy, dots on oxblood), tied with cream and oxblood cotton ribbon, a wooden spool of ribbon and brass scissors beside them, soft window light. The main objects sit across the middle band of the frame, so it crops well both to a wide, short banner and to a tall center crop.",
+        "alt": "Gifts wrapped in block-printed paper and tied with cotton ribbon",
+        "size": "1536x1024"
+      }
+    },
+    {
+      "slug": "gift-wrap",
+      "name": "Wrapping Paper & Ribbon",
+      "parent": "wrapping-gifts",
+      "description": "Hand block-printed paper and soft cotton ribbon.",
+      "image": {
+        "from_product": "block-printed-wrapping-paper"
+      }
+    },
+    {
+      "slug": "gift-sets",
+      "name": "Gift Sets",
+      "parent": "wrapping-gifts",
+      "description": "Ready-made presents, boxed and wrapped by hand.",
+      "image": {
+        "from_product": "correspondents-gift-box"
+      }
+    },
+    {
+      "slug": "leather-goods",
+      "name": "Small Leather Goods",
+      "parent": null,
+      "description": "Pen rolls, journal covers, bookmarks and desk pads in vegetable-tanned leather that grows better with age.",
+      "image": {
+        "from_product": "leather-pen-roll"
+      }
+    }
+  ],
+  "products": [
+    {
+      "slug": "everyday-clothbound-journal",
+      "name": "Everyday Clothbound Journal",
+      "description_html": "<p>The notebook we reach for first: a sturdy clothbound journal that lies open on the desk and takes fountain-pen ink without a whisper of bleed-through.</p><h3>Details</h3><ul><li>A5 (5.8 × 8.3 in), 192 numbered pages</li><li>Book cloth over boards, rounded corners, cotton ribbon marker</li><li>Thread-sewn binding that opens flat</li><li>A paper pocket inside the back cover for letters and receipts</li></ul><h3>Paper</h3><p>100 gsm cream wove, smooth enough for a fine nib and heavy enough that ink stays on its own side of the page. Choose 7 mm lines, a 5 mm dot grid, or plain pages.</p><h3>Care</h3><p>Wipe the cloth with a barely damp cloth, and keep it out of long hours of direct sun so the color stays true.</p>",
+      "price": 28,
+      "sale_price": null,
+      "categories": [
+        "journals",
+        "notebooks-journals"
+      ],
+      "tags": [
+        "journal",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": [
+          "Paper",
+          "Cloth"
+        ],
+        "size": "A5",
+        "binding": "Thread-sewn",
+        "paper": "100 gsm cream wove, fountain-pen friendly",
+        "page_count": "192 pages",
+        "made_in": "Portugal",
+        "care": "Wipe clean with a barely damp cloth; keep out of strong sun."
+      },
+      "options": [
+        {
+          "name": "Cover",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Ink Navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Oxblood",
+              "price": 0,
+              "color": "#6b2a26"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#56613f"
+            },
+            {
+              "name": "Parchment",
+              "price": 0,
+              "color": "#e6d8bd"
+            }
+          ]
+        },
+        {
+          "name": "Ruling",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Lined",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Dot grid",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Plain",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ledger-brass-fountain-pen",
+        "bottled-ink",
+        "leather-bookmark"
+      ],
+      "cross_sells": [
+        {
+          "product": "leather-bookmark",
+          "discount_percent": null
+        },
+        {
+          "product": "ink-sampler",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a clothbound A5 journal with rounded corners in deep navy book cloth, a cream cotton ribbon marker trailing from the pages, lying at a slight angle, blank cover, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Everyday clothbound journal in ink navy cloth",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "An open clothbound journal lying flat on a worn walnut desk, its cream pages blank apart from a few loose abstract ink swirls, a brass fountain pen resting across the gutter, a cream ribbon marker, soft window light from the left.",
+          "alt": "The clothbound journal open flat on a walnut desk with a brass fountain pen",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Cover": "Oxblood",
+            "Ruling": "Plain"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "five-year-diary",
+      "name": "Five-Year Line-a-Day Diary",
+      "description_html": "<p>One page for every day of the year, with room for a few lines on each date for five years running. Turn to today and you will find what you were doing a year ago, and the year before that.</p><h3>Details</h3><ul><li>5.3 × 7.5 in, 372 pages with a page for every date</li><li>Book cloth over boards, gilt-edged pages, two ribbon markers</li><li>Thread-sewn and rounded at the spine</li></ul><h3>Paper</h3><p>80 gsm ivory paper, thin enough to keep the book slim and smooth enough for pencil, ballpoint or a fine fountain pen.</p><h3>Care</h3><p>Store it upright on a shelf. A soft brush keeps dust off the gilt edges.</p>",
+      "price": 36,
+      "sale_price": null,
+      "categories": [
+        "journals",
+        "notebooks-journals"
+      ],
+      "tags": [
+        "diary",
+        "gift-idea"
+      ],
+      "attributes": {
+        "material": [
+          "Paper",
+          "Cloth"
+        ],
+        "size": "A5",
+        "binding": "Thread-sewn",
+        "paper": "80 gsm ivory, gilt edges",
+        "page_count": "372 pages",
+        "made_in": "USA",
+        "care": "Store upright; brush dust from the gilt edges."
+      },
+      "options": [
+        {
+          "name": "Cover",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Ink Navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Rosewood",
+              "price": 0,
+              "color": "#8a4b4b"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#56613f"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 30,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "schoolroom-fountain-pen",
+        "leather-bookmark"
+      ],
+      "cross_sells": [
+        {
+          "product": "cedar-pencils",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a thick clothbound diary in dusty rosewood book cloth with softly gilded page edges and two thin ribbon markers, standing slightly open at an angle, blank cover, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Five-year diary in rosewood cloth with gilt edges",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "marbled-edition-journal",
+      "name": "Marbled Edition Journal",
+      "description_html": "<p>A small run of journals bound in hand-marbled paper, each cover pulled from the bath one sheet at a time, so no two are alike. We make a few dozen each season and they rarely last the month.</p><h3>Details</h3><ul><li>A5, 160 pages, with a navy cloth spine and corners</li><li>Hand-marbled cover paper in indigo, oxblood and cream</li><li>Thread-sewn by a two-person bindery</li></ul><h3>Paper</h3><p>120 gsm cream laid paper with a soft ribbed texture, lovely under a broad nib.</p><h3>Care</h3><p>Marbled paper is delicate: keep it dry, and away from long hours of sun.</p>",
+      "price": 42,
+      "sale_price": null,
+      "categories": [
+        "journals",
+        "notebooks-journals"
+      ],
+      "tags": [
+        "limited-edition",
+        "handmade"
+      ],
+      "attributes": {
+        "material": [
+          "Paper",
+          "Cloth"
+        ],
+        "size": "A5",
+        "binding": "Thread-sewn",
+        "paper": "120 gsm cream laid",
+        "page_count": "160 pages",
+        "made_in": "Italy",
+        "care": "Keep dry and out of strong sun."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 0,
+        "status": "out_of_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "everyday-clothbound-journal"
+      ],
+      "cross_sells": [
+        {
+          "product": "ledger-brass-fountain-pen",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a hardbound journal covered in hand-marbled paper with swirling patterns of indigo, oxblood and cream, a navy cloth spine and corners, lying flat at a slight angle, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Marbled edition journal with an indigo and oxblood marbled cover",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "refillable-leather-journal",
+      "name": "Refillable Leather Journal",
+      "description_html": "<p>A wrap of thick vegetable-tanned leather that holds up to three slim notebooks under elastic bands, closed with a long cord. The leather darkens and softens with years of handling; the notebooks inside come and go.</p><h3>Details</h3><ul><li>Fits three B6 slim inserts (4.3 × 8.3 in)</li><li>Comes with one lined, one dot-grid and one plain insert</li><li>Cut, stitched and edge-burnished by hand</li></ul><h3>Paper</h3><p>Each insert has 64 pages of 90 gsm cream paper, stitched into a kraft cover. Refills are sold in our Pocket Notebook Trio.</p><h3>Care</h3><p>Rub in a little leather balm twice a year. Scratches buff out with a warm thumb.</p>",
+      "price": 64,
+      "sale_price": null,
+      "categories": [
+        "journals",
+        "notebooks-journals",
+        "leather-goods"
+      ],
+      "tags": [
+        "leather",
+        "refillable"
+      ],
+      "attributes": {
+        "material": [
+          "Leather",
+          "Paper"
+        ],
+        "size": "B6",
+        "binding": "Refillable",
+        "paper": "90 gsm cream, three inserts",
+        "page_count": "3 × 64 pages",
+        "made_in": "USA",
+        "care": "Leather balm twice a year; buff scratches by hand."
+      },
+      "options": [
+        {
+          "name": "Leather",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tan",
+              "price": 0,
+              "color": "#a8743f"
+            },
+            {
+              "name": "Chestnut",
+              "price": 0,
+              "color": "#6e3f22"
+            },
+            {
+              "name": "Black",
+              "price": 0,
+              "color": "#26211d"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 18,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "pocket-notebook-trio",
+        "leather-pen-roll"
+      ],
+      "cross_sells": [
+        {
+          "product": "leather-bookmark",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a closed leather journal cover in warm tan vegetable-tanned leather, softly worn at the edges, wrapped with a long leather cord, no stamping or marks, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Refillable leather journal in tan, wrapped with its cord",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A tan leather journal cover lying open on an oak desk, showing slim kraft-covered paper inserts held by elastic bands, blank cream pages, a pencil beside it, soft window light from the left.",
+          "alt": "The leather journal open, showing its three paper inserts",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "pocket-notebook-trio",
+      "name": "Pocket Notebook Trio",
+      "description_html": "<p>Three slim notebooks for a coat pocket, a handbag or the inside of our leather journal: for lists, addresses, sketches and the thoughts that arrive on a walk.</p><h3>Details</h3><ul><li>Three notebooks, each 3.5 × 5.5 in with 48 pages</li><li>Kraft card covers, saddle-stitched with cotton thread</li><li>Rounded corners that don't dog-ear</li></ul><h3>Paper</h3><p>90 gsm cream paper that takes pencil, ballpoint and fine fountain pens. Choose lined, dot grid or plain.</p><h3>Care</h3><p>These are made to be used up. Write on every page, then start the next one.</p>",
+      "price": 16,
+      "sale_price": null,
+      "categories": [
+        "pocket-notebooks",
+        "notebooks-journals"
+      ],
+      "tags": [
+        "pocket",
+        "refill"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "Pocket",
+        "binding": "Saddle-stitched",
+        "paper": "90 gsm cream",
+        "page_count": "3 × 48 pages",
+        "made_in": "USA"
+      },
+      "options": [
+        {
+          "name": "Ruling",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Lined",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Dot grid",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Plain",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [
+        {
+          "min": 3,
+          "price": 14
+        }
+      ],
+      "bundle_items": [],
+      "up_sells": [
+        "refillable-leather-journal",
+        "cedar-pencils"
+      ],
+      "cross_sells": [
+        {
+          "product": "brass-pencil-sharpener",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of three slim pocket notebooks with plain kraft card covers and rounded corners, fanned out slightly, saddle-stitched spines with cream thread, blank covers, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Three kraft pocket notebooks fanned out",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "linen-field-sketchbook",
+      "name": "Linen Field Sketchbook",
+      "description_html": "<p>A sketchbook for walks and travels, bound in natural linen and sewn to lie completely flat so a drawing can run across both pages.</p><h3>Details</h3><ul><li>Pocket (3.5 × 5.5 in) or A5, 96 pages</li><li>Natural linen over boards with an elastic closure</li><li>Lay-flat sewn binding</li></ul><h3>Paper</h3><p>150 gsm cotton-blend drawing paper, plain, with enough tooth for pencil and charcoal and enough body for a light watercolor wash.</p><h3>Care</h3><p>Let washes dry with the book open. Linen marks gently with use, which we think is part of its charm.</p>",
+      "price": 24,
+      "sale_price": null,
+      "categories": [
+        "pocket-notebooks",
+        "notebooks-journals"
+      ],
+      "tags": [
+        "sketchbook",
+        "drawing"
+      ],
+      "attributes": {
+        "material": [
+          "Paper",
+          "Cloth"
+        ],
+        "size": [
+          "Pocket",
+          "A5"
+        ],
+        "binding": "Lay-flat sewn",
+        "paper": "150 gsm cotton-blend drawing paper",
+        "page_count": "96 pages",
+        "made_in": "USA",
+        "care": "Let washes dry with the book open."
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Pocket",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "A5",
+              "price": 8,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 26,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cedar-pencils",
+        "brass-pencil-sharpener"
+      ],
+      "cross_sells": [
+        {
+          "product": "pocket-notebook-trio",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a small sketchbook bound in natural oatmeal linen with an elastic band closure, lying at an angle with a cedar pencil beside it, blank cover, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Linen field sketchbook with a cedar pencil",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "ledger-brass-fountain-pen",
+      "name": "Ledger Brass Fountain Pen",
+      "description_html": "<p>A solid brass fountain pen with a steel nib, weighty enough to steady the hand and small enough for a shirt pocket. It arrives bright and slowly takes on a warm, honeyed patina.</p><h3>Details</h3><ul><li>Machined solid brass body and screw cap, 5.3 in capped</li><li>Polished steel nib in extra fine, fine, medium or broad</li><li>Takes standard international cartridges or the included converter</li><li>Comes in a cotton pouch with three cartridges of Harbor Blue-Black</li></ul><h3>Care</h3><p>Flush the nib with cool water when you change inks. Polish the brass back to bright with a soft cloth, or leave the patina be.</p>",
+      "price": 78,
+      "sale_price": null,
+      "categories": [
+        "fountain-pens",
+        "writing"
+      ],
+      "tags": [
+        "fountain-pen",
+        "brass",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": [
+          "Brass",
+          "Steel"
+        ],
+        "made_in": "USA",
+        "care": "Flush with cool water between inks; polish brass with a soft cloth."
+      },
+      "options": [
+        {
+          "name": "Nib",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Extra fine",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Fine",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Medium",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Broad",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 32,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "bottled-ink",
+        "leather-pen-roll",
+        "walnut-pen-tray"
+      ],
+      "cross_sells": [
+        {
+          "product": "ink-sampler",
+          "discount_percent": null
+        },
+        {
+          "product": "everyday-clothbound-journal",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a compact solid brass fountain pen with a softly polished body and screw cap, posted cap beside it showing a plain steel nib, lying diagonally, no engraving or marks, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Ledger brass fountain pen with its cap off",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Close-up of a brass fountain pen's steel nib resting on a sheet of blank cream laid paper, a fresh abstract curl of blue-black ink beside it, a glass ink bottle soft in the background, warm window light, shallow depth of field.",
+          "alt": "The steel nib of the brass fountain pen on cream paper",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "tortoise-resin-fountain-pen",
+      "name": "Tortoise Resin Fountain Pen",
+      "description_html": "<p>A full-sized fountain pen turned from swirled resin that glows like old tortoiseshell when you hold it to the light, with gold-toned trim and a smooth, slightly springy nib.</p><h3>Details</h3><ul><li>Hand-turned resin barrel and cap, 5.6 in capped</li><li>Gold-plated steel nib in fine or medium</li><li>Piston-style converter included; takes standard cartridges</li><li>Gift box with a cream cotton pouch</li></ul><h3>Care</h3><p>Flush with cool water every few weeks. Keep it away from heat and solvents, which dull the resin.</p>",
+      "price": 120,
+      "sale_price": 96,
+      "categories": [
+        "fountain-pens",
+        "writing"
+      ],
+      "tags": [
+        "fountain-pen",
+        "gift-idea",
+        "sale"
+      ],
+      "attributes": {
+        "material": [
+          "Resin",
+          "Steel"
+        ],
+        "made_in": "Italy",
+        "care": "Flush with cool water; keep away from heat and solvents."
+      },
+      "options": [
+        {
+          "name": "Finish",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Amber Tortoise",
+              "price": 0,
+              "color": "#8a5a2b"
+            },
+            {
+              "name": "Green Marble",
+              "price": 0,
+              "color": "#3e5a45"
+            },
+            {
+              "name": "Navy Pearl",
+              "price": 0,
+              "color": "#2c3e5c"
+            }
+          ]
+        },
+        {
+          "name": "Nib",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fine",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Medium",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 14,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "bottled-ink",
+        "leather-pen-roll"
+      ],
+      "cross_sells": [
+        {
+          "product": "ink-sampler",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a full-sized fountain pen in translucent amber tortoiseshell-patterned resin with gold-toned clip and band, capped, lying diagonally beside its uncapped twin showing a gold-toned nib, no engraving, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Tortoise resin fountain pen in amber tortoise",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "schoolroom-fountain-pen",
+      "name": "Schoolroom Fountain Pen",
+      "description_html": "<p>The pen we hand to anyone who has never used a fountain pen: light, sturdy and forgiving, with a medium steel nib that writes the moment it touches paper.</p><h3>Details</h3><ul><li>Lacquered aluminum body with a snap cap</li><li>Medium steel nib</li><li>Takes standard international cartridges; comes with two</li></ul><h3>Care</h3><p>Snap the cap on when you set it down, and it will be ready next time.</p>",
+      "price": 24,
+      "sale_price": null,
+      "categories": [
+        "fountain-pens",
+        "writing"
+      ],
+      "tags": [
+        "fountain-pen",
+        "first-pen"
+      ],
+      "attributes": {
+        "material": [
+          "Aluminum",
+          "Steel"
+        ],
+        "made_in": "Germany",
+        "care": "Cap it when not in use; flush with water between inks."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Brick",
+              "price": 0,
+              "color": "#9a3a20"
+            },
+            {
+              "name": "Bottle Green",
+              "price": 0,
+              "color": "#2f4a35"
+            },
+            {
+              "name": "Cream",
+              "price": 0,
+              "color": "#efe4cc"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 48,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ink-sampler",
+        "pocket-notebook-trio"
+      ],
+      "cross_sells": [
+        {
+          "product": "everyday-clothbound-journal",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of four slim, simple fountain pens with snap caps in matte navy, brick red, bottle green and cream lacquer, laid side by side at a gentle diagonal, no markings, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Schoolroom fountain pens in navy, brick, bottle green and cream",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "bottled-ink",
+      "name": "Quillhart House Ink, 50 ml",
+      "description_html": "<p>Our own fountain-pen inks, mixed in small batches in five colors we couldn't find anywhere else: quiet, well-behaved shades that shade nicely and dry in good time.</p><h3>Details</h3><ul><li>50 ml in a squat glass bottle with a wide neck, so the last drops still reach the nib</li><li>Water-based, safe for every fountain pen</li><li>Dries in about 15 seconds on our journal paper</li></ul><h3>Colors</h3><p>Harbor Blue-Black for letters, Oxblood for notes in the margin, Fern and Walnut for journals, and Slate for everything else.</p><h3>Care</h3><p>Keep the cap tight and the bottle out of the sun. Flush your pen with water before changing colors.</p>",
+      "price": 18,
+      "sale_price": null,
+      "categories": [
+        "inks",
+        "writing"
+      ],
+      "tags": [
+        "ink",
+        "house-made"
+      ],
+      "attributes": {
+        "material": [
+          "Glass"
+        ],
+        "made_in": "USA",
+        "care": "Cap tightly; store away from sun; flush pens between colors."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Harbor Blue-Black",
+              "price": 0,
+              "color": "#233247"
+            },
+            {
+              "name": "Oxblood",
+              "price": 0,
+              "color": "#6b2a26"
+            },
+            {
+              "name": "Fern",
+              "price": 0,
+              "color": "#4c5e3a"
+            },
+            {
+              "name": "Walnut",
+              "price": 0,
+              "color": "#5b4030"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#4f5a63"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 120,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ledger-brass-fountain-pen",
+        "schoolroom-fountain-pen"
+      ],
+      "cross_sells": [
+        {
+          "product": "ink-sampler",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a squat, heavy clear glass ink bottle with a wide neck and a plain black screw cap, filled with deep blue-black ink, a small abstract swatch of the ink brushed on a scrap of cream paper beside it, no label, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "House ink in a squat glass bottle, Harbor Blue-Black",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "ink-sampler",
+      "name": "Ink Sampler, Five Colors",
+      "description_html": "<p>All five of our house inks in small glass vials, for trying each one before you settle on a favorite, or for the friend who has just been given their first fountain pen.</p><h3>Details</h3><ul><li>Five 5 ml glass vials: Harbor Blue-Black, Oxblood, Fern, Walnut and Slate</li><li>A blunt filling syringe for drawing ink into a converter</li><li>Packed in a small kraft box with a color card to swatch on</li></ul><h3>Care</h3><p>Keep the vials upright and capped. Each holds enough for three or four fills.</p>",
+      "price": 22,
+      "sale_price": null,
+      "categories": [
+        "inks",
+        "writing",
+        "gift-sets"
+      ],
+      "tags": [
+        "ink",
+        "sampler",
+        "gift-idea"
+      ],
+      "attributes": {
+        "material": [
+          "Glass"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "bottled-ink"
+      ],
+      "cross_sells": [
+        {
+          "product": "schoolroom-fountain-pen",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of five small glass vials with plain black caps standing in a row in a small open kraft box, holding inks in blue-black, oxblood, fern green, walnut brown and slate gray, no labels, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Five small vials of house ink in a kraft box",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "cedar-pencils",
+      "name": "Incense Cedar Pencils, Box of 12",
+      "description_html": "<p>Round, unpainted pencils in fragrant incense cedar that sharpen cleanly and smell faintly of a pencil box from long ago.</p><h3>Details</h3><ul><li>Twelve pencils, 7.5 in, with natural cedar and a clear wax finish</li><li>Smooth graphite in HB for writing or 2B for drawing</li><li>Packed in a slide-open card box</li></ul><h3>Care</h3><p>A sharp blade or our brass wedge sharpener gives the longest point.</p>",
+      "price": 14,
+      "sale_price": null,
+      "categories": [
+        "pencils",
+        "writing"
+      ],
+      "tags": [
+        "pencil"
+      ],
+      "attributes": {
+        "material": [
+          "Wood"
+        ],
+        "made_in": "Japan"
+      },
+      "options": [
+        {
+          "name": "Grade",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "HB",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "2B",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-pencil-sharpener",
+        "linen-field-sketchbook"
+      ],
+      "cross_sells": [
+        {
+          "product": "pocket-notebook-trio",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a dozen round unpainted natural cedar pencils with sharpened points, half spilling from a plain slide-open cream card box, a few curls of cedar shavings, no markings, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "A box of unpainted incense cedar pencils",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "brass-pencil-sharpener",
+      "name": "Brass Wedge Sharpener",
+      "description_html": "<p>A small, solid brass sharpener with a replaceable steel blade: the kind that lives in a pencil case for decades and sharpens to a long, fine point.</p><h3>Details</h3><ul><li>Solid brass, 1 × 0.6 in</li><li>Replaceable carbon-steel blade; one spare included</li></ul><h3>Care</h3><p>Brass darkens gently with handling. Tighten the blade screw now and then.</p>",
+      "price": 16,
+      "sale_price": null,
+      "categories": [
+        "pencils",
+        "writing",
+        "desk"
+      ],
+      "tags": [
+        "brass",
+        "pencil"
+      ],
+      "attributes": {
+        "material": [
+          "Brass",
+          "Steel"
+        ],
+        "made_in": "Germany"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 50,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cedar-pencils"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-field-sketchbook",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a small solid brass wedge-shaped pencil sharpener beside a freshly sharpened cedar pencil and a curl of shaving, close and detailed, no markings, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Brass wedge sharpener with a cedar pencil",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "letterpress-thank-you-notes",
+      "name": "Letterpress Thank-You Notes, Box of 8",
+      "description_html": "<p>Folded notes pressed on a hand-fed press with a small sprig of laurel, deep enough to feel with a fingertip. Inside they are blank, for the words only you can write.</p><h3>Details</h3><ul><li>Eight folded notes, 4.25 × 5.5 in, blank inside</li><li>Eight lined kraft envelopes</li><li>Printed in deep navy on thick cotton card</li></ul><h3>Paper</h3><p>300 gsm cotton card with a soft, felted surface that takes fountain-pen ink beautifully.</p>",
+      "price": 22,
+      "sale_price": null,
+      "categories": [
+        "greeting-cards",
+        "cards-letters"
+      ],
+      "tags": [
+        "letterpress",
+        "thank-you"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "Card",
+        "paper": "300 gsm cotton card",
+        "occasion": [
+          "Thank you",
+          "Everyday"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 45,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ledger-brass-fountain-pen",
+        "brass-wax-seal-kit"
+      ],
+      "cross_sells": [
+        {
+          "product": "pressed-fern-card",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a small stack of thick cream cotton folded note cards, the top card deeply pressed with a tiny abstract laurel sprig in navy, with kraft envelopes beneath, no words or letters, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Letterpress notes with a small laurel sprig, with kraft envelopes",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "pressed-fern-card",
+      "name": "Pressed Fern Card",
+      "description_html": "<p>A single folded card with a real pressed fern frond set under a glassine window, for birthdays, thank-yous, or a note just because. Each fern is a little different.</p><h3>Details</h3><ul><li>5 × 7 in, blank inside, with a cream envelope</li><li>Ferns pressed and mounted by hand</li><li>Six or more for $5 each</li></ul><h3>Paper</h3><p>Heavy cream card with a deckled front edge.</p>",
+      "price": 6,
+      "sale_price": null,
+      "categories": [
+        "greeting-cards",
+        "cards-letters"
+      ],
+      "tags": [
+        "botanical",
+        "single-card"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "Card",
+        "paper": "Heavy cream card, deckled edge",
+        "occasion": [
+          "Birthday",
+          "Everyday"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 85,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [
+        {
+          "min": 6,
+          "price": 5
+        }
+      ],
+      "bundle_items": [],
+      "up_sells": [
+        "assorted-notecards"
+      ],
+      "cross_sells": [
+        {
+          "product": "letterpress-thank-you-notes",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a single folded cream card with a deckled edge and a real pressed green fern frond under a small glassine window, standing slightly open beside a cream envelope, no words, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Pressed fern card with its envelope",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "assorted-notecards",
+      "name": "Everyday Notecard Assortment, Box of 12",
+      "description_html": "<p>A dozen flat notecards in four quiet designs, kept in a cloth-covered box on the desk so there is always one to hand: for birthdays, sympathy, thanks, or the letter you have been meaning to send.</p><h3>Details</h3><ul><li>Twelve flat cards, 4.5 × 6.25 in, three each of four designs</li><li>Twelve cream envelopes</li><li>A navy cloth-covered box with a lift-off lid</li></ul><h3>Paper</h3><p>350 gsm cream card, blank on the back for writing.</p>",
+      "price": 26,
+      "sale_price": null,
+      "categories": [
+        "greeting-cards",
+        "cards-letters"
+      ],
+      "tags": [
+        "notecards",
+        "assortment"
+      ],
+      "attributes": {
+        "material": [
+          "Paper",
+          "Cloth"
+        ],
+        "size": "Card",
+        "paper": "350 gsm cream card",
+        "occasion": [
+          "Everyday",
+          "Birthday",
+          "Thank you",
+          "Sympathy"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 36,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-wax-seal-kit",
+        "the-card-club"
+      ],
+      "cross_sells": [
+        {
+          "product": "pressed-fern-card",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of an open navy cloth-covered box holding a neat stack of flat cream notecards with small abstract botanical motifs in navy, oxblood and moss, matching cream envelopes beside it, no words, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "A navy cloth box of assorted notecards",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "the-card-club",
+      "name": "The Card Club",
+      "description_html": "<p>Four new letterpress cards arrive at the start of each month, chosen for the season and printed in small runs just for club members. Keep them in a drawer and you will never again be without a card on the day you need one.</p><h3>Each month</h3><ul><li>Four folded cards, blank inside, with lined envelopes</li><li>A short letter from the shop about the season's designs</li><li>Members-only designs, never sold in the shop</li></ul><h3>How it works</h3><p>Choose monthly or every season. Skip a month, pause or cancel whenever you like from your account. Or try a single month to see how you like it.</p>",
+      "price": 20,
+      "sale_price": null,
+      "categories": [
+        "greeting-cards",
+        "cards-letters",
+        "gift-sets"
+      ],
+      "tags": [
+        "subscription",
+        "card-club"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "Card",
+        "occasion": [
+          "Everyday",
+          "Birthday",
+          "Thank you",
+          "Holiday"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [
+        {
+          "name": "Every month",
+          "interval": "monthly",
+          "interval_count": 1,
+          "price": 16,
+          "trial_days": 0,
+          "description": "Four new cards each month · Members-only designs · Skip or cancel any time"
+        },
+        {
+          "name": "Every season",
+          "interval": "monthly",
+          "interval_count": 3,
+          "price": 18,
+          "trial_days": 0,
+          "description": "Four seasonal cards four times a year · Members-only designs · Skip or cancel any time"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "assorted-notecards"
+      ],
+      "cross_sells": [
+        {
+          "product": "brass-wax-seal-kit",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Flat lay of four cream letterpress cards, each pressed with a different small abstract seasonal motif (a leaf, a berry sprig, a snowflake shape, a blossom) in navy, oxblood and moss, with kraft envelopes and a loop of cream cotton ribbon, no words, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "A month of Card Club cards with kraft envelopes",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "cotton-letter-set",
+      "name": "Cotton Letter Writing Set",
+      "description_html": "<p>Everything for a proper letter: deckle-edged sheets of cotton paper and envelopes lined in a soft, marbled paper, boxed together to sit on the desk or slip in a drawer.</p><h3>Details</h3><ul><li>20 sheets, 6 × 9 in, with a hand-torn deckle edge</li><li>10 envelopes with marbled-paper liners</li><li>A ruled guide sheet to slip beneath for straight lines</li></ul><h3>Paper</h3><p>120 gsm cotton paper with a soft, felted surface. Fountain-pen ink sits on top and dries crisp, with no feathering.</p><h3>Care</h3><p>Keep the box closed and away from damp so the cotton stays flat.</p>",
+      "price": 32,
+      "sale_price": null,
+      "categories": [
+        "letter-sets",
+        "cards-letters"
+      ],
+      "tags": [
+        "letter-writing",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "A5",
+        "paper": "120 gsm cotton, deckle edge",
+        "occasion": [
+          "Everyday"
+        ],
+        "made_in": "England",
+        "care": "Keep boxed and dry."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Ivory",
+              "price": 0,
+              "color": "#f3ead6"
+            },
+            {
+              "name": "Pale Blue",
+              "price": 0,
+              "color": "#c9d4de"
+            },
+            {
+              "name": "Blush",
+              "price": 0,
+              "color": "#e5cfc4"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-wax-seal-kit",
+        "ledger-brass-fountain-pen"
+      ],
+      "cross_sells": [
+        {
+          "product": "bottled-ink",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of an open shallow cream box holding a stack of ivory cotton writing paper with soft deckled edges and matching envelopes, the top envelope's flap open to show a marbled paper liner, all blank, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Cotton letter writing set in ivory, with marbled envelope liners",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A letter-writing still life on a worn walnut desk by a window: a sheet of blank ivory cotton paper with a deckled edge, an envelope sealed with an oxblood wax seal, a brass fountain pen and a small glass ink bottle, soft afternoon light.",
+          "alt": "A letter in progress on a walnut desk with an oxblood wax seal",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "featherweight-letter-pad",
+      "name": "Featherweight Letter Pad",
+      "description_html": "<p>Thin, crisp paper in the old airmail tradition, for long letters that travel far without costing a fortune in stamps. Fifty sheets weigh less than a single greeting card.</p><h3>Details</h3><ul><li>50 sheets, 6 × 9 in, gummed at the top edge</li><li>A ruled guide sheet in the back</li><li>Blue and red border envelopes sold separately in the shop</li></ul><h3>Paper</h3><p>40 gsm cream onionskin. Best with a fine nib and a dry-ish ink, or a sharp pencil.</p>",
+      "price": 14,
+      "sale_price": 11,
+      "categories": [
+        "letter-sets",
+        "cards-letters"
+      ],
+      "tags": [
+        "letter-writing",
+        "sale"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "size": "A5",
+        "paper": "40 gsm cream onionskin",
+        "occasion": [
+          "Everyday"
+        ],
+        "made_in": "England"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 22,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cotton-letter-set"
+      ],
+      "cross_sells": [
+        {
+          "product": "schoolroom-fountain-pen",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a pad of very thin, translucent cream onionskin letter paper, the top sheet lifting slightly to show its delicacy, beside a fine-nibbed fountain pen, blank pages, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Featherweight letter pad of cream onionskin paper",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "brass-wax-seal-kit",
+      "name": "Brass Wax Seal Kit",
+      "description_html": "<p>A solid brass seal on a turned walnut handle, with sticks of sealing wax and a little brass spoon, for closing letters the way they used to be closed.</p><h3>Details</h3><ul><li>Brass seal, 1 in across, on a walnut handle</li><li>Choose a bee, fern, star or crescent moon</li><li>Three sticks of wax in the color you choose, and a brass melting spoon</li><li>Boxed in kraft with a printed how-to card</li></ul><h3>Care</h3><p>Let the seal cool between impressions, and wipe it with a dry cloth. A touch of oil on the brass face helps it release cleanly.</p>",
+      "price": 38,
+      "sale_price": null,
+      "categories": [
+        "letter-sets",
+        "cards-letters"
+      ],
+      "tags": [
+        "wax-seal",
+        "gift-idea"
+      ],
+      "attributes": {
+        "material": [
+          "Brass",
+          "Wood"
+        ],
+        "made_in": "USA",
+        "care": "Cool between uses; wipe dry."
+      },
+      "options": [
+        {
+          "name": "Seal",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Bee",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Fern",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Star",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Crescent moon",
+              "price": 0,
+              "color": null
+            }
+          ]
+        },
+        {
+          "name": "Wax color",
+          "variant": false,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Oxblood",
+              "price": 0,
+              "color": "#6b2a26"
+            },
+            {
+              "name": "Navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Gilt",
+              "price": 0,
+              "color": "#b08a3e"
+            },
+            {
+              "name": "Forest",
+              "price": 0,
+              "color": "#2f4a35"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 28,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cotton-letter-set",
+        "letterpress-thank-you-notes"
+      ],
+      "cross_sells": [
+        {
+          "product": "cotton-ribbon",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a brass wax seal stamp on a turned walnut handle beside three sticks of oxblood sealing wax, a small brass melting spoon, and a pressed oxblood wax seal showing a simple bee motif, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Brass wax seal kit with oxblood wax and a bee seal",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "walnut-pen-tray",
+      "name": "Walnut Pen Tray",
+      "description_html": "<p>A shallow tray carved from a single piece of American black walnut, with three soft grooves for pens and a little well for clips and nibs.</p><h3>Details</h3><ul><li>9 × 3.5 in, carved from solid walnut</li><li>Finished with oil and beeswax</li><li>Cork feet so it won't mark the desk</li></ul><h3>Care</h3><p>Dust with a dry cloth. Once a year, a little beeswax polish brings the grain back up.</p>",
+      "price": 34,
+      "sale_price": null,
+      "categories": [
+        "desk"
+      ],
+      "tags": [
+        "walnut",
+        "desk"
+      ],
+      "attributes": {
+        "material": [
+          "Wood"
+        ],
+        "made_in": "USA",
+        "care": "Dust dry; beeswax polish once a year."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 16,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-letter-opener",
+        "leather-desk-pad"
+      ],
+      "cross_sells": [
+        {
+          "product": "ledger-brass-fountain-pen",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a long shallow carved black walnut pen tray with three smooth grooves holding two fountain pens and a pencil, rich wood grain, viewed from slightly above, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Walnut pen tray holding two fountain pens and a pencil",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "brass-letter-opener",
+      "name": "Brass Letter Opener",
+      "description_html": "<p>A slim brass letter opener with a gently curved blade, cast from an old shop pattern. It opens envelopes cleanly along the fold, and sits nicely in a pen tray between letters.</p><h3>Details</h3><ul><li>Solid cast brass, 8.5 in long</li><li>Hand-finished, with a dull edge that is safe on the desk</li></ul><h3>Care</h3><p>Left alone, brass mellows to a soft gold. A little brass polish makes it bright again.</p>",
+      "price": 28,
+      "sale_price": null,
+      "categories": [
+        "desk"
+      ],
+      "tags": [
+        "brass",
+        "desk"
+      ],
+      "attributes": {
+        "material": [
+          "Brass"
+        ],
+        "made_in": "USA",
+        "care": "Polish to brighten, or let it mellow."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 20,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "walnut-pen-tray"
+      ],
+      "cross_sells": [
+        {
+          "product": "cotton-letter-set",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a slim solid brass letter opener with a gently curved blade and a simple rounded handle, lying diagonally across a small stack of sealed cream envelopes, no markings, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Brass letter opener on a stack of cream envelopes",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "leather-desk-pad",
+      "name": "Leather Desk Pad",
+      "description_html": "<p>A full-grain leather pad that warms the desk, quiets the clatter, and gives pen and paper a little give. It mellows with use, and the marks of good work only make it better.</p><h3>Details</h3><ul><li>24 × 14 in, 3 mm vegetable-tanned leather</li><li>Hand-stitched edges, suede underside that won't slip</li></ul><h3>Care</h3><p>Wipe with a dry cloth. Leather balm twice a year keeps it supple.</p>",
+      "price": 88,
+      "sale_price": null,
+      "categories": [
+        "desk",
+        "leather-goods"
+      ],
+      "tags": [
+        "leather",
+        "desk"
+      ],
+      "attributes": {
+        "material": [
+          "Leather"
+        ],
+        "made_in": "USA",
+        "care": "Wipe dry; leather balm twice a year."
+      },
+      "options": [
+        {
+          "name": "Leather",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tan",
+              "price": 0,
+              "color": "#a8743f"
+            },
+            {
+              "name": "Chestnut",
+              "price": 0,
+              "color": "#6e3f22"
+            },
+            {
+              "name": "Black",
+              "price": 0,
+              "color": "#26211d"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 12,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "walnut-pen-tray",
+        "brass-letter-opener"
+      ],
+      "cross_sells": [
+        {
+          "product": "leather-pen-roll",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "A rich chestnut leather desk pad with hand-stitched edges on a worn walnut writing desk, a blank sheet of cream paper and a brass fountain pen resting on it, soft window light from the left, viewed from slightly above, centered.",
+          "alt": "Leather desk pad in chestnut on a walnut desk",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Leather": "Black"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "block-printed-wrapping-paper",
+      "name": "Block-Printed Wrapping Paper, Three Sheets",
+      "description_html": "<p>Heavy wrapping paper printed by hand with carved wooden blocks, so every repeat is slightly its own. Lovely enough to fold and keep after the gift is open.</p><h3>Details</h3><ul><li>Three sheets, 20 × 28 in, rolled in a kraft band</li><li>Choose fern on cream, stars on navy or dots on oxblood</li></ul><h3>Paper</h3><p>100 gsm recycled paper with a soft matte finish that creases crisply.</p>",
+      "price": 15,
+      "sale_price": null,
+      "categories": [
+        "gift-wrap",
+        "wrapping-gifts"
+      ],
+      "tags": [
+        "wrapping",
+        "block-printed"
+      ],
+      "attributes": {
+        "material": [
+          "Paper"
+        ],
+        "paper": "100 gsm recycled",
+        "made_in": "USA"
+      },
+      "options": [
+        {
+          "name": "Pattern",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fern on cream",
+              "price": 0,
+              "color": "#efe4cc"
+            },
+            {
+              "name": "Stars on navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Dots on oxblood",
+              "price": 0,
+              "color": "#6b2a26"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 54,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cotton-ribbon"
+      ],
+      "cross_sells": [
+        {
+          "product": "letterpress-thank-you-notes",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of three loosely rolled sheets of hand block-printed wrapping paper, one cream with small fern prints, one navy with tiny stars, one oxblood with dots, partly unrolled to show the patterns, held by a kraft band, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Block-printed wrapping paper in fern, star and dot patterns",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "cotton-ribbon",
+      "name": "Cotton Ribbon, 10 Yards",
+      "description_html": "<p>Soft, matte cotton ribbon that ties a good, flat bow and unties without a fuss, wound on a wooden spool.</p><h3>Details</h3><ul><li>10 yards, 5/8 in wide</li><li>Woven cotton tape on a wooden spool</li></ul><h3>Care</h3><p>Press with a cool iron to take out creases and use it again.</p>",
+      "price": 9,
+      "sale_price": null,
+      "categories": [
+        "gift-wrap",
+        "wrapping-gifts"
+      ],
+      "tags": [
+        "ribbon",
+        "wrapping"
+      ],
+      "attributes": {
+        "material": [
+          "Cotton",
+          "Wood"
+        ],
+        "made_in": "USA",
+        "care": "Press with a cool iron and reuse."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Cream",
+              "price": 0,
+              "color": "#efe4cc"
+            },
+            {
+              "name": "Oxblood",
+              "price": 0,
+              "color": "#6b2a26"
+            },
+            {
+              "name": "Navy",
+              "price": 0,
+              "color": "#20375a"
+            },
+            {
+              "name": "Moss",
+              "price": 0,
+              "color": "#56613f"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 75,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "block-printed-wrapping-paper"
+      ],
+      "cross_sells": [
+        {
+          "product": "brass-wax-seal-kit",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of four wooden spools of matte cotton ribbon in cream, oxblood, navy and moss green, one ribbon end trailing in a loose curl, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Spools of cotton ribbon in cream, oxblood, navy and moss",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "correspondents-gift-box",
+      "name": "The Correspondent's Gift Box",
+      "description_html": "<p>Our favorite present for the letter writer in your life, or the one you hope will become one: a brass fountain pen, a bottle of house ink, a cotton letter set and a wax seal kit, packed in a cloth-covered box.</p><h3>In the box</h3><ul><li>Ledger Brass Fountain Pen (fine nib)</li><li>Quillhart House Ink, 50 ml, in Harbor Blue-Black</li><li>Cotton Letter Writing Set in ivory</li><li>Brass Wax Seal Kit with a bee seal and oxblood wax</li></ul><h3>Wrapping</h3><p>Every box is wrapped by hand and tied with cotton ribbon. Add a note at checkout and we will write it out on one of our cards.</p>",
+      "price": 148,
+      "sale_price": null,
+      "categories": [
+        "gift-sets",
+        "wrapping-gifts"
+      ],
+      "tags": [
+        "gift-set",
+        "bundle",
+        "gift-idea"
+      ],
+      "attributes": {
+        "material": [
+          "Brass",
+          "Paper",
+          "Glass"
+        ],
+        "made_in": "USA"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 15,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [
+        {
+          "product": "ledger-brass-fountain-pen",
+          "quantity": 1
+        },
+        {
+          "product": "bottled-ink",
+          "quantity": 1
+        },
+        {
+          "product": "cotton-letter-set",
+          "quantity": 1
+        },
+        {
+          "product": "brass-wax-seal-kit",
+          "quantity": 1
+        }
+      ],
+      "up_sells": [
+        "leather-pen-roll",
+        "walnut-pen-tray"
+      ],
+      "cross_sells": [
+        {
+          "product": "the-card-club",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a shallow navy cloth-covered gift box with its lid set aside, holding a brass fountain pen, a squat glass ink bottle of blue-black ink, ivory deckle-edged writing paper with envelopes and a brass wax seal on a walnut handle, nestled in cream tissue, no labels, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "The Correspondent's Gift Box, open, with pen, ink, paper and wax seal",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A gift box wrapped in navy paper with tiny printed stars and tied with cream cotton ribbon in a flat bow, a small blank cream gift card tucked under the ribbon, on a worn oak shop counter in soft window light.",
+          "alt": "The gift box wrapped in star paper with cream ribbon",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "bundle"
+    },
+    {
+      "slug": "leather-pen-roll",
+      "name": "Leather Pen Roll",
+      "description_html": "<p>A soft leather roll with six stitched slots, for carrying good pens without letting them knock together. It rolls up and ties with a leather thong, and fits in any bag.</p><h3>Details</h3><ul><li>Unrolled 9 × 7 in; holds six pens or pencils</li><li>Vegetable-tanned leather lined in cream cotton</li><li>A flap folds over the tops to keep caps in place</li></ul><h3>Care</h3><p>Leather balm once or twice a year. It will darken and soften the more it travels.</p>",
+      "price": 48,
+      "sale_price": null,
+      "categories": [
+        "leather-goods"
+      ],
+      "tags": [
+        "leather",
+        "pen-case"
+      ],
+      "attributes": {
+        "material": [
+          "Leather",
+          "Cotton"
+        ],
+        "made_in": "USA",
+        "care": "Leather balm once or twice a year."
+      },
+      "options": [
+        {
+          "name": "Leather",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tan",
+              "price": 0,
+              "color": "#a8743f"
+            },
+            {
+              "name": "Chestnut",
+              "price": 0,
+              "color": "#6e3f22"
+            },
+            {
+              "name": "Black",
+              "price": 0,
+              "color": "#26211d"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 22,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "ledger-brass-fountain-pen",
+        "tortoise-resin-fountain-pen"
+      ],
+      "cross_sells": [
+        {
+          "product": "leather-bookmark",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of a partly unrolled tan leather pen roll with six stitched slots holding a brass fountain pen, a resin fountain pen and cedar pencils, its leather tie trailing, no stamping, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Leather pen roll in tan, holding pens and pencils",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "leather-bookmark",
+      "name": "Leather Bookmark",
+      "description_html": "<p>A narrow strip of soft leather with a hand-cut swallowtail end, to keep your place in a journal or a good book for many years.</p><h3>Details</h3><ul><li>8 × 1.25 in, vegetable-tanned leather</li><li>Burnished edges and a swallowtail end</li></ul><h3>Care</h3><p>Nothing at all; it only gets better with handling.</p>",
+      "price": 14,
+      "sale_price": null,
+      "categories": [
+        "leather-goods"
+      ],
+      "tags": [
+        "leather",
+        "small-gift"
+      ],
+      "attributes": {
+        "material": [
+          "Leather"
+        ],
+        "made_in": "USA"
+      },
+      "options": [
+        {
+          "name": "Leather",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Tan",
+              "price": 0,
+              "color": "#a8743f"
+            },
+            {
+              "name": "Chestnut",
+              "price": 0,
+              "color": "#6e3f22"
+            },
+            {
+              "name": "Black",
+              "price": 0,
+              "color": "#26211d"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "everyday-clothbound-journal"
+      ],
+      "cross_sells": [
+        {
+          "product": "five-year-diary",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio still life of three narrow leather bookmarks with swallowtail ends in tan, chestnut and black, laid side by side at a gentle diagonal, burnished edges, no stamping, alone on a seamless warm parchment-colored backdrop with a soft natural shadow, centered with generous space around it.",
+          "alt": "Leather bookmarks in tan, chestnut and black",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "title": "Our story",
+      "template": null,
+      "content_html": "<p>Quillhart opened in the spring of 1994 in the old post office on Mercer Street, in Hollin Mill, Vermont. Nell Hart, a bookbinder who had spent ten years repairing other people's books, wanted a shop for the things she used every day at her own bench: good paper, honest pens, ink that behaved itself, and something nice to wrap it all in.</p><p>The brass mail slots are still on the north wall. These days they hold envelopes and cards instead of letters, and the sorting table at the back has become our wrapping table.</p><h2>What we keep</h2><p>We keep a small range on purpose. Every notebook is tested with fountain-pen ink, page by page, before it reaches the shelf. Every pen is filled and written with at the counter. Our five house inks are mixed in small batches in the back room, and our journals are bound by a two-person bindery we have worked with for twenty years.</p><h2>Why letters</h2><p>A letter takes longer than a message and lasts much longer too. We have watched customers buy a single card for a friend and come back years later for a box of fifty. We think the world is a little kinder with more letters in it, and we would like to help you write a few.</p><h2>Come and see us</h2><p>The shop is open Tuesday to Saturday, 10 to 5, and Sunday 11 to 4. There is always a pen to try and, most afternoons, a pot of tea on the counter.</p>"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact us",
+      "template": null,
+      "content_html": "<p>We are always glad of a letter, and almost as glad of an email. Write to us with a question about a pen, a gift you are hunting for, or an order on its way, and one of us will reply within two working days.</p><h2>Write to us</h2><p>Email: <a href=\"mailto:hello@quillhart.example\">hello@quillhart.example</a><br>Phone: (802) 555-0143, Tuesday to Saturday, 10 to 5 Eastern</p><h2>Visit the shop</h2><p>Quillhart<br>41 Mercer Street<br>Hollin Mill, VT 05458</p><p>Tuesday to Saturday, 10 to 5<br>Sunday, 11 to 4<br>Closed Mondays</p><h2>Wholesale and corporate gifts</h2><p>For holiday gifts for a team, or to stock our house inks in your own shop, write to us with a few details and we will send our trade price list.</p>"
+    },
+    {
+      "slug": "shipping-returns",
+      "title": "Shipping & returns",
+      "template": null,
+      "content_html": "<h2>Shipping</h2><p>We pack and ship every order from the shop within two working days, wrapped by hand in cream tissue and tied with cotton ribbon.</p><ul><li>Standard shipping is $6 to the United States and Canada.</li><li>Shipping is free on orders over $60.</li><li>Most US orders arrive in three to six working days; Canadian orders in five to ten.</li><li>Canadian orders may owe import duties on delivery.</li></ul><p>Card Club cards ship on the first working day of each month, or of each season if you chose seasonal delivery.</p><h2>Gift notes</h2><p>Add a note at checkout and we will write it out by hand on one of our cards and tuck it in the parcel. We leave prices out of every gift order.</p><h2>Returns</h2><p>If something isn't right, send it back within 30 days of delivery, unused and in its original wrapping, for a full refund. Opened ink and used notebooks can't come back, unless they arrived damaged; then we will replace them at no cost.</p><p>To start a return, write to <a href=\"mailto:hello@quillhart.example\">hello@quillhart.example</a> with your order number, and we will send the return address. Refunds go back to your original payment method within five working days of the parcel reaching us. You can read our full <a href=\"/policies/refund\">refund policy</a> as well.</p>"
+    },
+    {
+      "slug": "faq",
+      "title": "Questions",
+      "template": null,
+      "content_html": "<h2>Will your notebooks take fountain-pen ink?</h2><p>Yes. Every notebook and letter set we stock is tested with a medium nib and our own house ink before it goes on the shelf. The product pages say how heavy each paper is; anything 90 gsm or above handles most inks without bleeding through.</p><h2>I have never used a fountain pen. Where should I start?</h2><p>The Schoolroom Fountain Pen and our Ink Sampler. The pen is light and forgiving, and the sampler lets you try all five house inks before choosing a bottle. Our journal has a short guide to choosing a first pen.</p><h2>Do you gift wrap?</h2><p>Every order is wrapped by hand at no charge. Add a note at checkout and we will write it on one of our cards, and we never put prices in a gift parcel.</p><h2>How does the Card Club work?</h2><p>Choose monthly or seasonal delivery, and four new letterpress cards arrive with their envelopes. You can skip a delivery, pause or cancel any time from your account.</p><h2>Can I visit the shop?</h2><p>Please do. We are at 41 Mercer Street in Hollin Mill, open Tuesday to Saturday, 10 to 5, and Sunday 11 to 4.</p>"
+    }
+  ],
+  "blog": {
+    "slug": "journal",
+    "title": "Journal",
+    "posts": [
+      {
+        "slug": "choosing-a-first-fountain-pen",
+        "title": "Choosing a first fountain pen",
+        "date": "2026-09-18",
+        "tags": [
+          "fountain pens"
+        ],
+        "content_html": "<p>Most people who come to the counter asking about fountain pens are worried about two things: that it will be difficult, and that it will be messy. It is neither, if you start with the right pen.</p><h2>Start with a medium steel nib</h2><p>Steel nibs are sturdy and forgiving, and a medium nib glides over most papers without catching. Fine nibs suit small handwriting; broad nibs show off an ink's color but need better paper. Gold nibs are lovely, but there is no need to begin with one.</p><h2>Cartridges first, bottles later</h2><p>Cartridges are clean and simple. Once you have a favorite color, a converter lets you fill from a bottle, which is cheaper and offers far more shades.</p><h2>Mind the paper</h2><p>A good pen on thin copy paper will feather and bleed. Try it on a notebook of 90 gsm or more and you will see what all the fuss is about.</p><h2>Use it every day</h2><p>A fountain pen likes to be used. Write a list, a note, a page of your diary. If it sits for a few weeks, rinse the nib under cool water and it will be as good as new.</p>",
+        "image": {
+          "prompt": "Close-up still life of a simple navy fountain pen uncapped on a sheet of blank cream paper, a fresh abstract loop of blue-black ink trailing from the steel nib, a small glass ink bottle and its cap softly out of focus behind, warm window light from the left.",
+          "alt": "A navy fountain pen on cream paper beside a bottle of ink",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "the-art-of-the-thank-you-note",
+        "title": "The art of the thank-you note",
+        "date": "2026-10-09",
+        "tags": [
+          "letter writing"
+        ],
+        "content_html": "<p>A thank-you note does not need to be long. It needs to be specific, sincere and sent while the gift is still fresh in everyone's mind. Here is the simple shape we have recommended at the counter for thirty years.</p><h2>Name the thing</h2><p>Say what you are thanking them for, plainly. A scarf, an evening, a kindness in a hard week.</p><h2>Say how you use it</h2><p>Tell them where the scarf has been, or what you have been cooking from the book. This is the line they will remember.</p><h2>Look forward</h2><p>End with something ahead: the next visit, the spring, the next time you will see them.</p><h2>Then send it</h2><p>Within a week is ideal, but a late note is far better than none. Keep a box of cards and a book of stamps in the same drawer, and you will find it much easier to sit down and write.</p>",
+        "image": {
+          "prompt": "Still life on a worn walnut desk: a folded cream letterpress note card with a tiny pressed laurel motif, a kraft envelope sealed with an oxblood wax seal, a brass fountain pen and a small sprig of dried lavender, soft afternoon window light, no words anywhere.",
+          "alt": "A letterpress note, a sealed envelope and a brass fountain pen on a walnut desk",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "keeping-a-line-a-day-diary",
+        "title": "Keeping a line-a-day diary",
+        "date": "2026-10-30",
+        "tags": [
+          "journaling"
+        ],
+        "content_html": "<p>A journal can feel like homework. A line-a-day diary asks for only a few sentences, and after a year it begins to give something back: each page shows you the same date a year before, and the year before that.</p><h2>Keep it where you sit at night</h2><p>On the nightstand, by the kettle, beside the armchair. The diary that is within reach is the one that gets written in.</p><h2>Write the small things</h2><p>The weather, what you ate, who called, what made you laugh. The ordinary details are the ones you will be most glad of later.</p><h2>Don't worry about missed days</h2><p>Leave the space blank and pick up again tonight. Five years is long enough to forgive a few gaps.</p><h2>Read back on birthdays</h2><p>Once a year, read the whole page for your birthday. It is the best present the diary gives.</p>",
+        "image": {
+          "prompt": "Evening still life on a wooden windowsill: a thick rosewood clothbound diary lying open to blank ivory pages with a ribbon marker, a cedar pencil, a cup of tea in a cream porcelain cup, warm lamp light inside and deep blue dusk outside the window.",
+          "alt": "An open diary, a pencil and a cup of tea on a windowsill at dusk",
+          "size": "1536x1024"
+        }
+      }
+    ]
+  },
+  "menus": {
+    "main_menu": [
+      {
+        "name": "Notebooks & Journals",
+        "type": "category",
+        "value": "notebooks-journals",
+        "items": [
+          {
+            "name": "Journals & Diaries",
+            "type": "category",
+            "value": "journals",
+            "items": []
+          },
+          {
+            "name": "Pocket Notebooks & Sketchbooks",
+            "type": "category",
+            "value": "pocket-notebooks",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Pens & Ink",
+        "type": "category",
+        "value": "writing",
+        "items": [
+          {
+            "name": "Fountain Pens",
+            "type": "category",
+            "value": "fountain-pens",
+            "items": []
+          },
+          {
+            "name": "Ink",
+            "type": "category",
+            "value": "inks",
+            "items": []
+          },
+          {
+            "name": "Pencils",
+            "type": "category",
+            "value": "pencils",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Cards & Letters",
+        "type": "category",
+        "value": "cards-letters",
+        "items": [
+          {
+            "name": "Greeting Cards",
+            "type": "category",
+            "value": "greeting-cards",
+            "items": []
+          },
+          {
+            "name": "Letter Sets & Wax Seals",
+            "type": "category",
+            "value": "letter-sets",
+            "items": []
+          },
+          {
+            "name": "The Card Club",
+            "type": "product",
+            "value": "the-card-club",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Desk & Leather",
+        "type": "category",
+        "value": "desk",
+        "items": [
+          {
+            "name": "Desk Accessories",
+            "type": "category",
+            "value": "desk",
+            "items": []
+          },
+          {
+            "name": "Small Leather Goods",
+            "type": "category",
+            "value": "leather-goods",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Gifts",
+        "type": "category",
+        "value": "wrapping-gifts",
+        "items": [
+          {
+            "name": "Gift Sets",
+            "type": "category",
+            "value": "gift-sets",
+            "items": []
+          },
+          {
+            "name": "Wrapping Paper & Ribbon",
+            "type": "category",
+            "value": "gift-wrap",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Journal",
+        "type": "blog",
+        "value": "journal",
+        "items": []
+      },
+      {
+        "name": "Our Story",
+        "type": "page",
+        "value": "about",
+        "items": []
+      }
+    ],
+    "footer_menu": [
+      {
+        "name": "Shop",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Notebooks & Journals",
+            "type": "category",
+            "value": "notebooks-journals",
+            "items": []
+          },
+          {
+            "name": "Pens & Ink",
+            "type": "category",
+            "value": "writing",
+            "items": []
+          },
+          {
+            "name": "Cards & Letters",
+            "type": "category",
+            "value": "cards-letters",
+            "items": []
+          },
+          {
+            "name": "Desk Accessories",
+            "type": "category",
+            "value": "desk",
+            "items": []
+          },
+          {
+            "name": "Small Leather Goods",
+            "type": "category",
+            "value": "leather-goods",
+            "items": []
+          },
+          {
+            "name": "Gift Sets",
+            "type": "category",
+            "value": "gift-sets",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "The shop",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Our story",
+            "type": "page",
+            "value": "about",
+            "items": []
+          },
+          {
+            "name": "Journal",
+            "type": "blog",
+            "value": "journal",
+            "items": []
+          },
+          {
+            "name": "The Card Club",
+            "type": "product",
+            "value": "the-card-club",
+            "items": []
+          },
+          {
+            "name": "Contact us",
+            "type": "page",
+            "value": "contact",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Help",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Shipping & returns",
+            "type": "page",
+            "value": "shipping-returns",
+            "items": []
+          },
+          {
+            "name": "Questions",
+            "type": "page",
+            "value": "faq",
+            "items": []
+          },
+          {
+            "name": "Refund policy",
+            "type": "url",
+            "value": "/policies/refund",
+            "items": []
+          },
+          {
+            "name": "Privacy",
+            "type": "url",
+            "value": "/policies/privacy",
+            "items": []
+          },
+          {
+            "name": "Terms",
+            "type": "url",
+            "value": "/policies/terms",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "home_images": [
+    {
+      "key": "hero",
+      "size": "1024x1536",
+      "use": "home > hero (framed_hero) > picture, shown in a 4:5 picture frame (keep the subject centered with a little headroom).",
+      "prompt": "Vertical still life on a worn walnut writing desk beside a tall window with soft morning light: an open clothbound journal with blank cream pages and a ribbon marker, a brass fountain pen resting on it, a squat glass bottle of blue-black ink, a small stack of cream envelopes tied with oxblood cotton ribbon, and a brass wax seal on a walnut handle. Objects grouped in the center with space above.",
+      "alt": "A walnut writing desk with an open journal, a brass fountain pen, ink and ribboned envelopes"
+    },
+    {
+      "key": "story",
+      "size": "1024x1024",
+      "use": "home > note (story_split) > picture, a square frame beside the letter.",
+      "prompt": "Hands only, seen from slightly above: a pair of hands tying cream cotton ribbon in a flat bow around a small parcel wrapped in fern-printed cream paper, on a long worn oak wrapping table, a wooden spool of ribbon, brass scissors and folded cream tissue nearby, soft window light.",
+      "alt": "Hands tying cream ribbon around a parcel at the wrapping table"
+    }
+  ],
+  "section_content": [
+    {
+      "groups": [
+        "header"
+      ],
+      "sections": {
+        "announcement": {
+          "text": "Free shipping on orders over $60, and every order wrapped by hand",
+          "link_label": "Shipping & returns",
+          "link_href": "/pages/shipping-returns"
+        }
+      }
+    },
+    {
+      "groups": [
+        "footer"
+      ],
+      "sections": {
+        "footer": {
+          "tagline": "Good paper, fine ink, and letters worth keeping. In the old post office on Mercer Street since 1994.",
+          "note": "41 Mercer Street, Hollin Mill, Vermont"
+        }
+      }
+    },
+    {
+      "templates": [
+        "home"
+      ],
+      "sections": {
+        "hero": {
+          "kicker": "Since 1994, on Mercer Street",
+          "heading": "For letters worth\n*keeping*",
+          "text": "Clothbound journals, fountain pens and our own house inks, letterpress cards and the paper to wrap them in, all chosen and tested in our small Vermont shop.",
+          "cta_label": "Shop the desk",
+          "cta_href": "/products",
+          "more_label": "Browse categories",
+          "more_link": "/categories",
+          "aside": "Every order wrapped by hand.",
+          "picture": {
+            "$image": "hero"
+          }
+        },
+        "new": {
+          "kicker": "Fresh on the shelves",
+          "heading": "New arrivals",
+          "products": {
+            "from": "products",
+            "products": [
+              "tortoise-resin-fountain-pen",
+              "brass-wax-seal-kit",
+              "the-card-club",
+              "leather-pen-roll"
+            ]
+          }
+        },
+        "shelf": {
+          "heading": "Browse the shop",
+          "intro": "From the notebook shelf to the wrapping table at the back.",
+          "collections": {
+            "from": "collections",
+            "collections": [
+              "notebooks-journals",
+              "writing",
+              "cards-letters",
+              "wrapping-gifts"
+            ]
+          }
+        },
+        "note": {
+          "opening": "A letter from Mercer Street",
+          "heading": "Why we still write letters",
+          "letter": "When we opened in the old post office in 1994, people told us letters were on their way out. Thirty-odd years later, the brass mail slots on our north wall are still full, now with envelopes and cards for you to fill.\n\nWe keep a small range on purpose. Every notebook is tested with real ink, every pen is filled and tried at the counter, and every order is wrapped by hand at the long table at the back. We hope something here sends a few more letters out into the world.",
+          "sign_off": "Nell Hart, and everyone at Quillhart",
+          "more_label": "Read our story",
+          "more_link": "/pages/about",
+          "picture": {
+            "$image": "story"
+          }
+        },
+        "favorites": {
+          "kicker": "Old favorites",
+          "heading": "Most loved in the shop",
+          "products": {
+            "from": "products",
+            "products": [
+              "everyday-clothbound-journal",
+              "ledger-brass-fountain-pen",
+              "cotton-letter-set"
+            ]
+          }
+        },
+        "promises": {
+          "promises": [
+            {
+              "symbol": "check",
+              "headline": "Wrapped by hand",
+              "detail": "Tissue and cotton ribbon, at no charge"
+            },
+            {
+              "symbol": "truck",
+              "headline": "Free shipping over $60",
+              "detail": "To the US and Canada",
+              "link": "/pages/shipping-returns"
+            },
+            {
+              "symbol": "return",
+              "headline": "30-day returns",
+              "detail": "Unused and in its wrapping",
+              "link": "/pages/shipping-returns"
+            },
+            {
+              "symbol": "leaf",
+              "headline": "Tested with real ink",
+              "detail": "Every notebook, page by page"
+            }
+          ]
+        },
+        "letters": {
+          "heading": "Letters from the shop",
+          "text": "About once a month: new paper and ink, the season's cards, and a short note from behind the counter.",
+          "button_label": "Subscribe",
+          "note": "We write about once a month. Unsubscribe whenever you like."
+        }
+      }
+    },
+    {
+      "templates": [
+        "product"
+      ],
+      "sections": {
+        "product": {
+          "shop_folds": [
+            {
+              "label": "Gift wrapping",
+              "words": "Every order is wrapped by hand in cream tissue and tied with cotton ribbon, at no charge. Add a note at checkout and we will write it out on one of our cards. Gift parcels never show prices."
+            },
+            {
+              "label": "Shipping and returns",
+              "words": "We ship from Vermont within two working days: $6 standard, free on orders over $60 to the US and Canada. Unused items can come back within 30 days of delivery."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "theme_settings_notes": "Section settings are in section_content (groups header and footer; templates home and product). What has no field:\n- PAGES: the build has no page.about.json or page.contact.json, so About, Contact, Shipping & returns and Questions use the plain Page template (template null) and carry their copy in content_html; create them with storefront_ids set.\n- BUNDLE correspondents-gift-box: if the importer needs a variant per bundle item, use Fine nib (ledger-brass-fountain-pen), Harbor Blue-Black (bottled-ink), Ivory (cotton-letter-set) and Bee seal (brass-wax-seal-kit; wax color Oxblood is a non-variant option).\n- STOCK: marbled-edition-journal is sold out; everyday-clothbound-journal Oxblood / Plain and leather-desk-pad Black are sold-out variants; tortoise-resin-fountain-pen and featherweight-letter-pad are on sale.\n- SUBSCRIPTION: the-card-club keeps one-time purchase on (a single month at $20) beside its monthly and seasonal plans.\n- Store hours (Tue-Sat 10-5, Sun 11-4) live only in page copy; the founder Nell Hart and the town Hollin Mill are invented."
+}

@@ -1,0 +1,31 @@
+{
+  "label": "Shop settings",
+  "fields": [
+    {
+      "type": "field_group",
+      "label": "Top of the page",
+      "fields": [
+        { "id": "sticky_header", "label": "Header stays in view as shoppers scroll", "type": "toggle", "default": true }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Cards",
+      "description": "How products look in every grid of the shop.",
+      "fields": [
+        { "id": "cards_hover_photo", "label": "Swap to the next photo when pointed at", "type": "toggle", "default": true },
+        { "id": "cards_color_dots", "label": "Small color dots from the product's options", "type": "toggle", "default": true },
+        { "id": "cards_badges", "label": "Sale and sold-out tags on the photo", "type": "toggle", "default": true },
+        { "id": "cards_add_button", "label": "An add button under each card", "type": "toggle", "default": false,
+          "description": "Products that need a choice first link to their page." }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Buying",
+      "fields": [
+        { "id": "buy_quantity", "label": "Let shoppers choose a quantity", "type": "toggle", "default": true }
+      ]
+    }
+  ]
+}

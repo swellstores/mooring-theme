@@ -1,0 +1,21 @@
+{
+  "$format": 1,
+  "product_page": {
+    "$label": "Product page",
+    "$notes": {
+      "description": "Heading of the product description fold",
+      "details": "Heading of the fold listing the product's attributes"
+    },
+    "description": "Description",
+    "details": "Details"
+  },
+  "catalog": {
+    "$label": "Category sidebar",
+    "$notes": {
+      "browse": "Heading over the category links beside a category's products",
+      "refine": "Heading over the filters beside a category's products"
+    },
+    "browse": "Browse",
+    "refine": "Refine"
+  }
+}

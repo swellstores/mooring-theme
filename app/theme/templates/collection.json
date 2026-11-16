@@ -1,0 +1,26 @@
+{
+  "title": "Collection",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "collection_intro",
+      "props": {
+        "collection": "current",
+        "image": "banner",
+        "show_children": "show"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product_catalog",
+      "props": {
+        "collection": "current",
+        "products": { "from": "collection", "collection": "current", "limit": 24 },
+        "sidebar": "left",
+        "show_count": "show",
+        "show_sort": "show",
+        "show_filters": "show"
+      }
+    }
+  ]
+}
