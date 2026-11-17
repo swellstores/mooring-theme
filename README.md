@@ -38,4 +38,4 @@ How a section is written, the repository layout and how a theme is assembled are
 
 ## License
 
-Mooring is licensed under the Swell Theme License (`LICENSE`), which covers this repository, the shared theme core in `app/` included.
+Mooring is licensed under the Swell App License (`LICENSE`), which covers this repository, the shared theme core in `app/` included.
