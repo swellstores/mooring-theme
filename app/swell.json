@@ -2,8 +2,10 @@
   "id": "mooring",
   "name": "Mooring",
   "type": "theme",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "A classic, warm theme with serif type and framed photos, for any store",
+  "support_email": "support@swell.is",
+  "documentation_url": "https://developers.swell.is/app-guides/wave",
   "repository_url": "https://github.com/swellstores/mooring-theme",
   "preview_src": "assets/preview.png",
   "preview_mobile_src": "assets/preview-mobile.png",
@@ -27,7 +29,7 @@
         "some"
       ],
       "best_for": "Any store that wants a classic, welcoming look with serif type",
-      "demo_url": "https://quillhart-demo--xhxg30py.swell.store/__demo"
+      "demo_url": "https://quillhart-demo--xhxg30py--preview.swell.store/__demo"
     }
   }
 }
